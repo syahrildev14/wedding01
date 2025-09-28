@@ -1,6 +1,13 @@
 ## 📦 Instalasi
 
 ### 1. Instalasi Frontend
-```bash
 cd frontend
 npm install
+
+### 2. Instalasi Backend
+cd ..
+npm install
+
+### 3. Build Frontend
+cd frontend
+npm run build
