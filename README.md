@@ -1,5 +1,6 @@
 ## 📦 Instalasi
 
+### 1. Instalasi Frontend
 ```bash
-cd wedding01
+cd frontend
 npm install
