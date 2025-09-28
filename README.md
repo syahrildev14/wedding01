@@ -9,3 +9,13 @@ npm install
 ```bash
 cd ..
 npm install
+```
+### 3. Build Frontend
+```bash
+cd frontend
+npm run build
+```
+### 4. Jalankan Server
+```bash
+cd ..
+node server.js
