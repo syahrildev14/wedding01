@@ -413,7 +413,7 @@ const Home = () => {
           {/*Jadwal Akad */}
           <div className="space-y-4">
             <motion.h1
-              className="mempelai text-6xl font-semibold"
+              className="mempelai text-5xl font-semibold"
               initial={{ scale: 0.5, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{
@@ -423,7 +423,7 @@ const Home = () => {
               }}
               viewport={{ once: false, amount: 0.5 }}
             >
-              Akad Nikah
+              Akad & Resepsi
             </motion.h1>
             <motion.p
               className="font-semibold text-xl"
@@ -445,7 +445,7 @@ const Home = () => {
               <br />
               Ds. Mejoyolosari, Gudo, Jombang
             </p>
-            {/* <motion.button
+            <motion.button
               className="py-2 px-4 w-28 text-sm shadow-sm font-semibold bg-lime-800 text-white rounded-full"
               initial={{ y: 100, opacity: 0 }} // mulai agak ke kanan + transparan
               whileInView={{ y: 0, opacity: 1 }}
@@ -453,13 +453,13 @@ const Home = () => {
               viewport={{ once: false }}
             >
               Maps
-            </motion.button> */}
+            </motion.button>
           </div>
 
           {/* Jadwal Resepsionis */}
           <div className="space-y-4">
             <motion.h1
-              className="mempelai text-6xl font-semibold"
+              className="mempelai text-5xl font-semibold"
               initial={{ scale: 0.5, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{
@@ -469,7 +469,7 @@ const Home = () => {
               }}
               viewport={{ once: false, amount: 0.5 }}
             >
-              Resepsi
+              Ngunduh Mantu
             </motion.h1>
             <motion.p
               className="font-semibold text-xl"
@@ -490,7 +490,7 @@ const Home = () => {
               (Kediaman Mempelai Pria) <br /> Dsn. Jasem, Rt.02/Rw.05, <br />
               Ds. Watugaluh, Diwek, Jombang
             </p>
-            {/* <motion.button
+            <motion.button
               className="py-2 px-4 w-28 text-sm shadow-sm font-semibold bg-lime-800 text-white rounded-full"
               initial={{ y: 100, opacity: 0 }} // mulai agak ke kanan + transparan
               whileInView={{ y: 0, opacity: 1 }}
@@ -498,7 +498,7 @@ const Home = () => {
               viewport={{ once: false }}
             >
               Maps
-            </motion.button> */}
+            </motion.button>
           </div>
         </div>
       </div>
