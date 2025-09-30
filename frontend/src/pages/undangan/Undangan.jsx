@@ -3,10 +3,10 @@ import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 
 // images
-import bg from "../../assets/images/bg1.jpeg";
-import gerbangKanan from "../../assets/images/gerbangKiri.png";
-import gerbangKiri from "../../assets/images/gerbangKanan.png";
-import lampu from "../../assets/images/lampu.png";
+import bg from "../../assets/images/bg1.webp";
+import gerbangKanan from "../../assets/images/gerbangKiri.webp";
+import gerbangKiri from "../../assets/images/gerbangKanan.webp";
+import lampu from "../../assets/images/lampu.webp";
 import { motion } from "framer-motion";
 
 export default function Undangan() {
