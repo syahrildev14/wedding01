@@ -445,15 +445,18 @@ const Home = () => {
               <br />
               Ds. Mejoyolosari, Gudo, Jombang
             </p>
-            <motion.button
-              className="py-2 px-4 w-28 text-sm shadow-sm font-semibold bg-lime-800 text-white rounded-full"
-              initial={{ y: 100, opacity: 0 }} // mulai agak ke kanan + transparan
+            <motion.a
+              href="https://www.google.com/maps/place/7%C2%B036'44.4%22S+112%C2%B011'34.5%22E/@-7.6123395,112.1903267,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-7.6123395!4d112.1929016?entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D" // ganti dengan link/koordinatmu
+              target="_blank" // buka di tab baru
+              rel="noopener noreferrer"
+              className="py-2 px-8 w-28 text-sm shadow-sm font-semibold bg-lime-800 text-white rounded-full  justify-center"
+              initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
               viewport={{ once: false }}
             >
               Maps
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Jadwal Resepsionis */}
@@ -490,15 +493,18 @@ const Home = () => {
               (Kediaman Mempelai Pria) <br /> Dsn. Jasem, Rt.02/Rw.05, <br />
               Ds. Watugaluh, Diwek, Jombang
             </p>
-            <motion.button
-              className="py-2 px-4 w-28 text-sm shadow-sm font-semibold bg-lime-800 text-white rounded-full"
-              initial={{ y: 100, opacity: 0 }} // mulai agak ke kanan + transparan
+            <motion.a
+              href="https://www.google.com/maps/place/7%C2%B035'42.0%22S+112%C2%B012'18.4%22E/@-7.5950119,112.2025332,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-7.5950119!4d112.2051081?entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D" // ganti dengan link/koordinatmu
+              target="_blank" // buka di tab baru
+              rel="noopener noreferrer"
+              className="py-2 px-8 w-28 text-sm shadow-sm font-semibold bg-lime-800 text-white rounded-full  justify-center"
+              initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
               viewport={{ once: false }}
             >
               Maps
-            </motion.button>
+            </motion.a>
           </div>
         </div>
       </div>
